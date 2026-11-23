@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-meets-ai",
+  "version": "1.0.0",
+  "description": "Nodejs meets AI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stinie/nodejs-meets-ai.git"
+  },
+  "author": "Christine Fürst",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "groq-sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
